@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: theme("colors.cream");
+  color: theme("colors.ink");
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Halftone dot texture used behind the hero + sections */
+.dots {
+  background-image: radial-gradient(theme("colors.ink") 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+}
+
+/* Chunky outlined comic text */
+.stroke-ink {
+  -webkit-text-stroke: 2px theme("colors.ink");
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border-[3px] border-ink
+      px-6 py-3 font-display text-base font-black uppercase tracking-wide
+      shadow-pop transition-all duration-150
+      hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-pop-lg
+      active:translate-x-0.5 active:translate-y-0.5 active:shadow-none;
+  }
+  .card {
+    @apply rounded-2xl border-[3px] border-ink bg-white shadow-pop;
+  }
+  .pill {
+    @apply inline-block rounded-full border-[3px] border-ink bg-white px-4 py-1
+      font-display text-sm font-black uppercase tracking-wider;
+  }
+}
