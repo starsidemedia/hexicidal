@@ -45,9 +45,9 @@ export const handles = {
 //  Leave the array as-is for now; replace with your real video IDs.
 // ---------------------------------------------------------------------------
 export const featuredVideos: { id: string; title: string }[] = [
-  { id: "dQw4w9WgXcQ", title: "TODO: Replace with a real video" },
-  { id: "dQw4w9WgXcQ", title: "TODO: Replace with a real video" },
-  { id: "dQw4w9WgXcQ", title: "TODO: Replace with a real video" },
+  { id: "kFhYe5fBDKI", title: "Latest Short" },
+  { id: "75slmzp8lbY", title: "Latest Short" },
+  { id: "JrOsWxw_oFw", title: "Latest Short" },
 ];
 
 export const featuredTikToks: { id: string }[] = [
