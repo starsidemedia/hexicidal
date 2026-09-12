@@ -4,6 +4,7 @@ import { useState } from "react";
 import { site, links } from "@/lib/site-config";
 
 const navItems = [
+  { label: "Socials", href: "#socials" },
   { label: "Videos", href: "#videos" },
   { label: "About", href: "#about" },
   { label: "Support", href: "#support" },

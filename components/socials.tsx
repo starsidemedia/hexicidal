@@ -1,36 +1,89 @@
-import { links } from "@/lib/site-config";
+import { links, handles } from "@/lib/site-config";
 import { YouTubeIcon, InstagramIcon, TikTokIcon } from "./icons";
 
 const socials = [
-  { name: "YouTube", href: links.youtube, icon: YouTubeIcon, color: "bg-pop-pink", text: "text-white", handle: "Long-form jank & deck techs" },
-  { name: "TikTok", href: links.tiktok, icon: TikTokIcon, color: "bg-pop-cyan", text: "text-ink", handle: "Quick hits & hot takes" },
-  { name: "Instagram", href: links.instagram, icon: InstagramIcon, color: "bg-pop-yellow", text: "text-ink", handle: "Clips, memes & reels" },
+  {
+    name: "YouTube",
+    href: links.youtube,
+    icon: YouTubeIcon,
+    handle: handles.youtube,
+    sub: "Long-form jank & deck techs",
+    color: "bg-pop-pink",
+    text: "text-white",
+    badge: "bg-white text-pop-pink",
+    rotate: "rotate-1",
+  },
+  {
+    name: "TikTok",
+    href: links.tiktok,
+    icon: TikTokIcon,
+    handle: handles.tiktok,
+    sub: "Quick hits & hot takes",
+    color: "bg-pop-cyan",
+    text: "text-ink",
+    badge: "bg-ink text-white",
+    rotate: "-rotate-1",
+  },
+  {
+    name: "Instagram",
+    href: links.instagram,
+    icon: InstagramIcon,
+    handle: handles.instagram,
+    sub: "Clips, memes & reels",
+    color: "bg-pop-yellow",
+    text: "text-ink",
+    badge: "bg-ink text-white",
+    rotate: "rotate-2",
+  },
 ];
 
 export default function Socials() {
   return (
-    <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-      <h2 className="mb-8 text-center font-display text-3xl font-black uppercase sm:text-4xl">
-        Find me <span className="text-pop-pink">everywhere</span>
-      </h2>
-      <div className="grid gap-5 sm:grid-cols-3">
-        {socials.map((s, i) => (
+    <section id="socials" className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+      <div className="mb-10 text-center">
+        <h2 className="font-display text-3xl font-black uppercase sm:text-5xl">
+          Find me{" "}
+          <span className="relative inline-block">
+            <span className="relative z-10 text-pop-pink">everywhere</span>
+            <span className="absolute inset-x-0 bottom-1 z-0 h-3 -rotate-1 bg-pop-yellow" aria-hidden="true" />
+          </span>
+        </h2>
+        <p className="mt-3 font-body text-base font-medium text-ink/60 sm:text-lg">
+          Same unhinged energy, three different platforms.
+        </p>
+      </div>
+
+      <div className="grid gap-6 sm:grid-cols-3">
+        {socials.map((s) => (
           <a
             key={s.name}
             href={s.href}
             target="_blank"
             rel="noopener noreferrer"
-            className={`card group flex flex-col gap-4 p-6 transition-transform hover:-translate-y-1 ${
-              i % 2 === 0 ? "rotate-1" : "-rotate-1"
-            }`}
+            className={`card group relative flex flex-col gap-5 p-7 transition-transform hover:-translate-y-2 hover:shadow-pop-lg ${s.rotate}`}
           >
-            <span className={`inline-flex h-14 w-14 items-center justify-center rounded-xl border-[3px] border-ink ${s.color} ${s.text}`}>
-              <s.icon className="h-7 w-7" />
+            {/* platform color blob */}
+            <span
+              className={`absolute -right-2 -top-2 h-8 w-8 rounded-full border-[3px] border-ink ${s.color}`}
+              aria-hidden="true"
+            />
+
+            {/* icon */}
+            <span
+              className={`inline-flex h-16 w-16 items-center justify-center rounded-2xl border-[3px] border-ink ${s.color} ${s.text}`}
+            >
+              <s.icon className="h-8 w-8" />
             </span>
+
+            {/* name + handle */}
             <div>
-              <p className="font-display text-xl font-black uppercase">{s.name}</p>
-              <p className="font-body text-sm font-medium text-ink/70">{s.handle}</p>
+              <p className="font-display text-2xl font-black uppercase leading-none">{s.name}</p>
+              <p className={`mt-1 inline-block rounded-full border-2 border-ink px-2 py-0.5 font-display text-xs font-black uppercase ${s.badge}`}>
+                {s.handle}
+              </p>
+              <p className="mt-2 font-body text-sm font-medium text-ink/60">{s.sub}</p>
             </div>
+
             <span className="mt-auto font-display text-sm font-black uppercase text-pop-pink group-hover:underline">
               Follow →
             </span>

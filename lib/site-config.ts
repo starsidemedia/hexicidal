@@ -22,16 +22,21 @@ export const site = {
 //  SOCIAL / PLATFORM LINKS  — replace the "#" / TODO values
 // ---------------------------------------------------------------------------
 export const links = {
-  youtube: "https://youtube.com/@hexicidal", // TODO: real channel URL
-  instagram: "https://instagram.com/hexicidal", // TODO: real handle URL
-  tiktok: "https://tiktok.com/@hexicidal", // TODO: real handle URL
+  youtube: "https://www.youtube.com/@hexicidal",
+  youtubeshorts: "https://www.youtube.com/@hexicidal/shorts",
+  instagram: "https://www.instagram.com/hex_icidal/",
+  tiktok: "https://www.tiktok.com/@hexicidal",
   patreon: "https://patreon.com/hexicidal", // TODO: real patreon URL
-  // Donations: swap to your Ko-fi / PayPal / Buy Me a Coffee link.
   donate: "https://ko-fi.com/hexicidal", // TODO
-  // Optional: Twitch / Discord / Twitter-X. Leave "" to hide them.
   twitch: "",
   discord: "",
   twitter: "",
+};
+
+export const handles = {
+  youtube: "@hexicidal",
+  tiktok: "@hexicidal",
+  instagram: "@hex_icidal",
 };
 
 // ---------------------------------------------------------------------------
@@ -43,6 +48,12 @@ export const featuredVideos: { id: string; title: string }[] = [
   { id: "dQw4w9WgXcQ", title: "TODO: Replace with a real video" },
   { id: "dQw4w9WgXcQ", title: "TODO: Replace with a real video" },
   { id: "dQw4w9WgXcQ", title: "TODO: Replace with a real video" },
+];
+
+export const featuredTikToks: { id: string }[] = [
+  { id: "7682302401134497037" },
+  { id: "7682995025017359630" },
+  { id: "7684503306277817614" },
 ];
 
 // ---------------------------------------------------------------------------
