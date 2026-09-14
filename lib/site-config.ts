@@ -6,11 +6,11 @@
 
 export const site = {
   name: "HEXICIDAL",
-  tagline: "MTG chaos, memes, and content that should probably be banned.",
+  tagline: "MTG finance, unboxing, and market breakdowns for the card-obsessed.",
   // Short blurb used in the hero + page metadata.
   description:
-    "Hexicidal is a Magic: The Gathering content creator making YouTube, " +
-    "Instagram, and TikTok videos packed with memes, jank, and questionable life choices.",
+    "Hexicidal is a Magic: The Gathering content creator covering card finance, " +
+    "unboxing, and market deep-dives across YouTube, TikTok, and Instagram.",
   // Used for <meta> tags + canonical URLs. Update to your real domain later.
   url: "https://hexicidal.vercel.app",
   // Shows under the name in the hero. Set to your real first name or leave "".
@@ -77,7 +77,7 @@ export const supportTiers = [
     name: "Eldrazi Patron",
     price: "$15",
     color: "bg-pop-pink",
-    perks: ["Everything below", "Shout-out in a video", "Submit your jankiest decks", "Exclusive streams"],
+    perks: ["Everything below", "Shout-out in a video", "Submit deck or finance topics", "Exclusive streams"],
   },
 ];
 
@@ -85,8 +85,8 @@ export const supportTiers = [
 //  ABOUT  — bullet facts shown on the about section
 // ---------------------------------------------------------------------------
 export const aboutBullets = [
-  "Magic: The Gathering degenerate since [TODO year].",
-  "I build the decks your LGS warned you about.",
-  "Memes first, win-cons... eventually.",
-  "New videos every week across YouTube, TikTok & Insta.",
+  "MTG finance content — tracking card prices, market moves, and where the value is.",
+  "Regular unboxing videos across sealed product, collector boosters, and singles.",
+  "Straightforward takes. No fluff.",
+  "New videos every week across YouTube, TikTok, and Instagram.",
 ];

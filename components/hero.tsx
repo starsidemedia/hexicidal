@@ -42,7 +42,7 @@ export default function Hero() {
               <span className="font-display text-[7rem] font-black leading-none text-ink sm:text-[9rem]">
                 H
               </span>
-              <span className="pill -mt-2 -rotate-2 bg-white text-xs">since the dawn of jank</span>
+              <span className="pill -mt-2 -rotate-2 bg-white text-xs">MTG finance &amp; unboxing</span>
             </div>
           </div>
           <div className="card absolute -bottom-5 -left-5 -rotate-3 bg-pop-lime px-4 py-2">

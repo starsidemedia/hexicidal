@@ -15,7 +15,7 @@ export default function About() {
             </div>
           </div>
           <div className="card absolute -right-4 -top-4 -rotate-6 bg-pop-pink px-3 py-1">
-            <span className="font-display text-xs font-black uppercase text-white">100% jank</span>
+            <span className="font-display text-xs font-black uppercase text-white">MTG Finance</span>
           </div>
         </div>
 

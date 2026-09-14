@@ -6,12 +6,12 @@ export default function Support() {
     <section id="support" className="border-y-[3px] border-ink bg-pop-yellow/30">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="mb-10 text-center">
-          <span className="pill mb-4 rotate-1 bg-pop-pink text-white">Support the chaos</span>
+          <span className="pill mb-4 rotate-1 bg-pop-pink text-white">Support the channel</span>
           <h2 className="font-display text-3xl font-black uppercase sm:text-4xl">
-            Keep the <span className="text-pop-pink">jank</span> alive
+            Keep the <span className="text-pop-pink">content</span> coming
           </h2>
           <p className="mx-auto mt-3 max-w-xl font-body text-lg font-medium">
-            Every patron and donation funds more videos, more decks, and more terrible decisions.
+            Every patron and donation funds more videos, more product, and more market breakdowns.
           </p>
         </div>
 
