@@ -1,7 +1,7 @@
 {
-  "slug": "20261112-182122",
-  "title": "20261112_182122",
-  "series": "20261112_182122",
+  "slug": "mystery-booster-2-pack-1",
+  "title": "mystery_booster_2_pack_1",
+  "series": "MB2",
   "kind": "pack",
   "foil": false,
   "date": "2026-11-13",
@@ -157,5 +157,8 @@
     "instagram": "https://www.instagram.com/p/DfsqNiqhMqw/"
   },
   "youtubeId": "gm48FKHgEbw",
-  "tiktokId": "7707779086298500366"
+  "tiktokId": "7707779086298500366",
+  "aliases": [
+    "20261112-182122"
+  ]
 }
