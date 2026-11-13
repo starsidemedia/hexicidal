@@ -4,10 +4,11 @@ import { useState } from "react";
 import { site, links } from "@/lib/site-config";
 
 const navItems = [
-  { label: "Socials", href: "#socials" },
-  { label: "Videos", href: "#videos" },
-  { label: "About", href: "#about" },
-  { label: "Support", href: "#support" },
+  { label: "Pull Tracker", href: "/pulls" },
+  { label: "Videos", href: "/#videos" },
+  { label: "Socials", href: "/#socials" },
+  { label: "About", href: "/#about" },
+  { label: "Support", href: "/#support" },
 ];
 
 export default function Navbar() {
@@ -16,7 +17,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b-[3px] border-ink bg-cream/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
-        <a href="#top" className="font-display text-xl font-black uppercase tracking-tight sm:text-2xl">
+        <a href="/" className="font-display text-xl font-black uppercase tracking-tight sm:text-2xl">
           <span className="text-pop-pink">HEX</span>
           <span>ICIDAL</span>
         </a>

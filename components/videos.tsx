@@ -1,7 +1,9 @@
-import { featuredVideos, links } from "@/lib/site-config";
+import { links } from "@/lib/site-config";
+import { latestYouTube } from "@/lib/openings";
 import { YouTubeIcon } from "./icons";
 
 export default function Videos() {
+  const featuredVideos = latestYouTube(3);
   return (
     <section id="videos" className="border-y-[3px] border-ink bg-pop-purple/15">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">

@@ -1,7 +1,9 @@
-import { featuredTikToks, links, handles } from "@/lib/site-config";
+import { links, handles } from "@/lib/site-config";
+import { latestTikToks } from "@/lib/openings";
 import { TikTokIcon } from "./icons";
 
 export default function TikToks() {
+  const featuredTikToks = latestTikToks(3);
   return (
     <section id="tiktoks" className="border-y-[3px] border-ink bg-pop-cyan/10">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">

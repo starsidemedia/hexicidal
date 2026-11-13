@@ -7,6 +7,7 @@ import TikToks from "@/components/tiktoks";
 import About from "@/components/about";
 import Support from "@/components/support";
 import Footer from "@/components/footer";
+import PullTeaser from "@/components/pull-teaser";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Marquee />
       <Socials />
+      <PullTeaser />
       <Videos />
       <TikToks />
       <About />

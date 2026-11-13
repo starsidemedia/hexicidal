@@ -11,8 +11,8 @@ export const site = {
   description:
     "Hexicidal is a Magic: The Gathering content creator covering card finance, " +
     "unboxing, and market deep-dives across YouTube, TikTok, and Instagram.",
-  // Used for <meta> tags + canonical URLs. Update to your real domain later.
-  url: "https://hexicidal.vercel.app",
+  // Used for <meta> tags + canonical URLs.
+  url: "https://www.hexicidal.com",
   // Shows under the name in the hero. Set to your real first name or leave "".
   creatorName: "",
   email: "TODO: your-public-email@example.com",

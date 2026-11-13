@@ -13,7 +13,7 @@ export default function Footer() {
     <footer className="border-t-[3px] border-ink bg-ink text-cream">
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
         <div className="flex flex-col items-center gap-6 text-center">
-          <a href="#top" className="font-display text-3xl font-black uppercase tracking-tight">
+          <a href="/" className="font-display text-3xl font-black uppercase tracking-tight">
             <span className="text-pop-pink">HEX</span>ICIDAL
           </a>
 
