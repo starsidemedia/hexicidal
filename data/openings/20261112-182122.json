@@ -1,0 +1,161 @@
+{
+  "slug": "20261112-182122",
+  "title": "20261112_182122",
+  "series": "20261112_182122",
+  "kind": "pack",
+  "foil": false,
+  "date": "2026-11-13",
+  "pricesAsOf": "2026-11-13",
+  "paid": 13.99,
+  "total": 39.44,
+  "profit": 25.45,
+  "cards": [
+    {
+      "name": "Restoration Specialist",
+      "printing": "The List (PLST #AER-21)",
+      "set": "plst",
+      "cn": "AER-21",
+      "price": 0.14,
+      "image": "https://cards.scryfall.io/normal/front/a/6/a6f6fa08-dac0-49d4-bad3-539557d82a49.jpg?1783910435",
+      "scryfall": "https://scryfall.com/card/plst/AER-21/restoration-specialist",
+      "hit": false
+    },
+    {
+      "name": "Impostor of the Sixth Pride",
+      "printing": "The List (PLST #MH1-14)",
+      "set": "plst",
+      "cn": "MH1-14",
+      "price": 0.23,
+      "image": "https://cards.scryfall.io/normal/front/4/1/41dfb1c3-d81f-4a27-add4-568da1e23bdc.jpg?1783910205",
+      "scryfall": "https://scryfall.com/card/plst/MH1-14/impostor-of-the-sixth-pride",
+      "hit": false
+    },
+    {
+      "name": "Cephalid Illusionist",
+      "printing": "The List (PLST #TOR-28)",
+      "set": "plst",
+      "cn": "TOR-28",
+      "price": 0.36,
+      "image": "https://cards.scryfall.io/normal/front/f/6/f6499403-1632-45ec-b5fd-9f3ab2cd6446.jpg?1783910408",
+      "scryfall": "https://scryfall.com/card/plst/TOR-28/cephalid-illusionist",
+      "hit": false
+    },
+    {
+      "name": "Mirror Image",
+      "printing": "The List (PLST #M19-61)",
+      "set": "plst",
+      "cn": "M19-61",
+      "price": 0.27,
+      "image": "https://cards.scryfall.io/normal/front/0/b/0b225f4f-b2a1-4c8f-961f-e69e541426ed.jpg?1783909974",
+      "scryfall": "https://scryfall.com/card/plst/M19-61/mirror-image",
+      "hit": false
+    },
+    {
+      "name": "Ultimate Price",
+      "printing": "The List (PLST #GK2-36)",
+      "set": "plst",
+      "cn": "GK2-36",
+      "price": 0.13,
+      "image": "https://cards.scryfall.io/normal/front/e/f/ef70ef8a-8114-4008-814d-1f4139f5f0fd.jpg?1783910034",
+      "scryfall": "https://scryfall.com/card/plst/GK2-36/ultimate-price",
+      "hit": false
+    },
+    {
+      "name": "Go Blank",
+      "printing": "The List (PLST #STX-72)",
+      "set": "plst",
+      "cn": "STX-72",
+      "price": 0.14,
+      "image": "https://cards.scryfall.io/normal/front/1/7/17171422-2521-4f5b-986a-a8c9a9310945.jpg?1783910299",
+      "scryfall": "https://scryfall.com/card/plst/STX-72/go-blank",
+      "hit": false
+    },
+    {
+      "name": "Charging Tuskodon",
+      "printing": "The List (PLST #RIX-97)",
+      "set": "plst",
+      "cn": "RIX-97",
+      "price": 0.13,
+      "image": "https://cards.scryfall.io/normal/front/d/4/d43024d3-d557-4c8f-9273-00384ab44860.jpg?1783910235",
+      "scryfall": "https://scryfall.com/card/plst/RIX-97/charging-tuskodon",
+      "hit": false
+    },
+    {
+      "name": "Goblin Matron",
+      "printing": "The List (PLST #USG-191)",
+      "set": "plst",
+      "cn": "USG-191",
+      "price": 0.3,
+      "image": "https://cards.scryfall.io/normal/front/5/e/5e02cf82-0cab-42fb-b323-2e87193a4fc4.jpg?1783910075",
+      "scryfall": "https://scryfall.com/card/plst/USG-191/goblin-matron",
+      "hit": false
+    },
+    {
+      "name": "Fae Offering",
+      "printing": "The List (PLST #MH2-158)",
+      "set": "plst",
+      "cn": "MH2-158",
+      "price": 0.25,
+      "image": "https://cards.scryfall.io/normal/front/4/4/4462f57d-5214-4b0e-a963-e0077741aad1.jpg?1783915144",
+      "scryfall": "https://scryfall.com/card/plst/MH2-158/fae-offering",
+      "hit": false
+    },
+    {
+      "name": "Prosperous Innkeeper",
+      "printing": "The List (PLST #AFR-200)",
+      "set": "plst",
+      "cn": "AFR-200",
+      "price": 0.25,
+      "image": "https://cards.scryfall.io/normal/front/a/6/a6c1c529-1bac-4c6d-9c6d-5013b5cc002c.jpg?1783910068",
+      "scryfall": "https://scryfall.com/card/plst/AFR-200/prosperous-innkeeper",
+      "hit": false
+    },
+    {
+      "name": "Mogg Infestation",
+      "printing": "The List (PLST #TPR-146)",
+      "set": "plst",
+      "cn": "TPR-146",
+      "price": 0.74,
+      "image": "https://cards.scryfall.io/normal/front/e/f/ef8b7992-d4d9-4d0f-9eca-5085588a4669.jpg?1783910136",
+      "scryfall": "https://scryfall.com/card/plst/TPR-146/mogg-infestation",
+      "hit": false
+    },
+    {
+      "name": "Urza's Saga",
+      "printing": "Mystery Booster 2 (MB2 #114)",
+      "set": "mb2",
+      "cn": "114",
+      "price": 32.1,
+      "image": "https://cards.scryfall.io/normal/front/c/7/c7658ec0-3207-4c7e-b31a-30a2a9249595.jpg?1783910584",
+      "scryfall": "https://scryfall.com/card/mb2/114/urzas-saga",
+      "hit": true
+    },
+    {
+      "name": "Ensnaring Bridge",
+      "printing": "Mystery Booster 2 (MB2 #219)",
+      "set": "mb2",
+      "cn": "219",
+      "price": 4.23,
+      "image": "https://cards.scryfall.io/normal/front/6/7/67a052ea-d717-4c01-87bb-9e4d7f66785e.jpg?1783910553",
+      "scryfall": "https://scryfall.com/card/mb2/219/ensnaring-bridge",
+      "hit": true
+    },
+    {
+      "name": "Flavor Disaster",
+      "printing": "Mystery Booster 2 (MB2 #575)",
+      "set": "mb2",
+      "cn": "575",
+      "price": 0.17,
+      "image": "https://cards.scryfall.io/normal/front/c/a/ca8606d7-0da5-4fb5-b541-a129005e3342.jpg?1783910515",
+      "scryfall": "https://scryfall.com/card/mb2/575/flavor-disaster",
+      "hit": false
+    }
+  ],
+  "posts": {
+    "tiktok": "https://www.tiktok.com/@hexicidal/video/7707779086298500366?is_from_webapp=1&sender_device=pc",
+    "youtube": "https://www.youtube.com/shorts/gm48FKHgEbw",
+    "instagram": "https://www.instagram.com/p/DfsqNiqhMqw/"
+  },
+  "youtubeId": "gm48FKHgEbw",
+  "tiktokId": "7707779086298500366"
+}
