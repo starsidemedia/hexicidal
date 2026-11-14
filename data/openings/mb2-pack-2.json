@@ -1,0 +1,161 @@
+{
+  "slug": "mb2-pack-2",
+  "title": "Mystery Booster 2 Pack 2",
+  "series": "Mystery Booster 2",
+  "kind": "pack",
+  "foil": false,
+  "date": "2026-11-13",
+  "pricesAsOf": "2026-11-14",
+  "paid": 13.99,
+  "total": 9.38,
+  "profit": -4.61,
+  "cards": [
+    {
+      "name": "Whipcorder",
+      "printing": "The List (PLST #ONS-60)",
+      "set": "plst",
+      "cn": "ONS-60",
+      "price": 0.17,
+      "image": "https://cards.scryfall.io/normal/front/3/0/306ad9de-d240-4430-bc97-3e0b731e1ec8.jpg?1783910325",
+      "scryfall": "https://scryfall.com/card/plst/ONS-60/whipcorder",
+      "hit": false
+    },
+    {
+      "name": "The Birth of Meletis",
+      "printing": "The List (PLST #THB-5)",
+      "set": "plst",
+      "cn": "THB-5",
+      "price": 0.25,
+      "image": "https://cards.scryfall.io/normal/front/a/4/a4ae9620-233f-4161-a3cf-159336e65d29.jpg?1783910478",
+      "scryfall": "https://scryfall.com/card/plst/THB-5/the-birth-of-meletis",
+      "hit": false
+    },
+    {
+      "name": "Alchemist's Retrieval",
+      "printing": "The List (PLST #VOW-47)",
+      "set": "plst",
+      "cn": "VOW-47",
+      "price": 0.14,
+      "image": "https://cards.scryfall.io/normal/front/2/2/22d01f2f-d8bf-4200-b869-cf4de2b87b76.jpg?1783910360",
+      "scryfall": "https://scryfall.com/card/plst/VOW-47/alchemists-retrieval",
+      "hit": false
+    },
+    {
+      "name": "Cephalid Broker",
+      "printing": "The List (PLST #ODY-71)",
+      "set": "plst",
+      "cn": "ODY-71",
+      "price": 0.12,
+      "image": "https://cards.scryfall.io/normal/front/e/5/e55e26c4-96bf-4df9-b938-594952ff3f92.jpg?1783910302",
+      "scryfall": "https://scryfall.com/card/plst/ODY-71/cephalid-broker",
+      "hit": false
+    },
+    {
+      "name": "Death Pulse",
+      "printing": "The List (PLST #ONS-137)",
+      "set": "plst",
+      "cn": "ONS-137",
+      "price": 0.22,
+      "image": "https://cards.scryfall.io/normal/front/a/f/afb8db0b-26c0-4dbc-b002-362ded68ce10.jpg?1783910150",
+      "scryfall": "https://scryfall.com/card/plst/ONS-137/death-pulse",
+      "hit": false
+    },
+    {
+      "name": "Blood Curdle",
+      "printing": "The List (PLST #IKO-75)",
+      "set": "plst",
+      "cn": "IKO-75",
+      "price": 0.12,
+      "image": "https://cards.scryfall.io/normal/front/6/6/66f85809-812b-4156-950a-116e347cef09.jpg?1783910293",
+      "scryfall": "https://scryfall.com/card/plst/IKO-75/blood-curdle",
+      "hit": false
+    },
+    {
+      "name": "Unexpected Windfall",
+      "printing": "The List (PLST #AFR-164)",
+      "set": "plst",
+      "cn": "AFR-164",
+      "price": 2.76,
+      "image": "https://cards.scryfall.io/normal/front/b/5/b5ca43d5-7312-4f05-8b80-aba018449aff.jpg?1783910109",
+      "scryfall": "https://scryfall.com/card/plst/AFR-164/unexpected-windfall",
+      "hit": false
+    },
+    {
+      "name": "Sparksmith",
+      "printing": "The List (PLST #ONS-235)",
+      "set": "plst",
+      "cn": "ONS-235",
+      "price": 0.15,
+      "image": "https://cards.scryfall.io/normal/front/1/d/1d9afb86-2e2a-4273-b1f4-f13e41b4aefa.jpg?1783910035",
+      "scryfall": "https://scryfall.com/card/plst/ONS-235/sparksmith",
+      "hit": false
+    },
+    {
+      "name": "Titanoth Rex",
+      "printing": "The List (PLST #IKO-174)",
+      "set": "plst",
+      "cn": "IKO-174",
+      "price": 0.49,
+      "image": "https://cards.scryfall.io/normal/front/8/4/84d34815-a52b-4358-bb62-a6b2e9ab9f8c.jpg?1783913652",
+      "scryfall": "https://scryfall.com/card/plst/IKO-174/titanoth-rex",
+      "hit": false
+    },
+    {
+      "name": "Fracture",
+      "printing": "The List (PLST #STX-188)",
+      "set": "plst",
+      "cn": "STX-188",
+      "price": 0.31,
+      "image": "https://cards.scryfall.io/normal/front/3/3/331c7cc7-0546-4852-a333-bce590201189.jpg?1783910076",
+      "scryfall": "https://scryfall.com/card/plst/STX-188/fracture",
+      "hit": false
+    },
+    {
+      "name": "God-Pharaoh's Gift",
+      "printing": "The List (PLST #HOU-161)",
+      "set": "plst",
+      "cn": "HOU-161",
+      "price": 0.28,
+      "image": "https://cards.scryfall.io/normal/front/4/3/43006ff7-6240-4ee1-8ea0-2dc9ad869165.jpg?1783910114",
+      "scryfall": "https://scryfall.com/card/plst/HOU-161/god-pharaohs-gift",
+      "hit": false
+    },
+    {
+      "name": "Keruga, the Macrosage",
+      "printing": "Mystery Booster 2 (MB2 #84)",
+      "set": "mb2",
+      "cn": "84",
+      "price": 0.18,
+      "image": "https://cards.scryfall.io/normal/front/9/6/966780e5-7d74-4886-8c6b-f1ff7d44783e.jpg?1783910594",
+      "scryfall": "https://scryfall.com/card/mb2/84/keruga-the-macrosage",
+      "hit": false
+    },
+    {
+      "name": "Flusterstorm",
+      "printing": "Mystery Booster 2 (MB2 #163)",
+      "set": "mb2",
+      "cn": "163",
+      "price": 4.02,
+      "image": "https://cards.scryfall.io/normal/front/3/0/308cab5e-a374-4077-bf82-2e89f5279ba9.jpg?1783910569",
+      "scryfall": "https://scryfall.com/card/mb2/163/flusterstorm",
+      "hit": true
+    },
+    {
+      "name": "Orb of Origin",
+      "printing": "Mystery Booster 2 (MB2 #609)",
+      "set": "mb2",
+      "cn": "609",
+      "price": 0.17,
+      "image": "https://cards.scryfall.io/normal/front/4/6/46199a5e-ad37-4e66-b296-39428021d951.jpg?1783910503",
+      "scryfall": "https://scryfall.com/card/mb2/609/orb-of-origin",
+      "hit": false
+    }
+  ],
+  "posts": {
+    "tiktok": "https://www.tiktok.com/@hexicidal/video/7708157102153420046?is_from_webapp=1&sender_device=pc",
+    "youtube": "https://youtube.com/shorts/-7oNIl4Wvro?feature=share",
+    "instagram": "https://www.instagram.com/reel/DfvRuMThLfn/?utm_source=ig_web_button_share_sheet&vrfl=MzRlODBiNWFlZA=="
+  },
+  "youtubeId": "-7oNIl4Wvro",
+  "tiktokId": "7708157102153420046"
+}
