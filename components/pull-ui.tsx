@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { money, signed, type Opening, type PullCard } from "@/lib/openings";
+import { GAMES, gameOf, money, signed, type Game, type Opening, type PullCard } from "@/lib/openings";
 
 export function StatTile({
   label,
@@ -37,10 +37,19 @@ export function ProfitBadge({ profit, big = false }: { profit: number | null; bi
   );
 }
 
-export function KindPill({ o }: { o: Pick<Opening, "kind" | "foil"> }) {
+const GAME_PILL: Record<Game, string> = {
+  mtg: "bg-pop-cyan",
+  pokemon: "bg-pop-yellow",
+  riftbound: "bg-pop-lime",
+};
+
+export function KindPill({ o }: { o: Pick<Opening, "kind" | "foil" | "game"> }) {
+  const game = gameOf(o);
+  const color = o.kind === "secret-lair" ? "bg-pop-purple text-white" : GAME_PILL[game];
+  const label = o.kind === "secret-lair" ? "Secret Lair" : game === "mtg" ? "Pack" : `${GAMES[game].label} · Pack`;
   return (
-    <span className={`pill ${o.kind === "secret-lair" ? "bg-pop-purple text-white" : "bg-pop-cyan"} text-xs`}>
-      {o.kind === "secret-lair" ? "Secret Lair" : "Pack"}
+    <span className={`pill ${color} text-xs`}>
+      {label}
       {o.foil ? " · Foil" : ""}
     </span>
   );
@@ -88,11 +97,14 @@ export function CardTile({ card, opening, index = 0 }: { card: PullCard; opening
   );
 }
 
-export function PricesNote({ asOf }: { asOf?: string }) {
+export function PricesNote({ asOf, games = ["mtg"] }: { asOf?: string; games?: Game[] }) {
+  const list = Array.from(new Set(games));
+  const sources = list.map((g) => GAMES[g].source).join(", ");
+  const images = list.map((g) => `${list.length > 1 ? GAMES[g].label + " images" : "Card images"} © ${GAMES[g].images}`);
   return (
     <p className="font-body text-xs font-medium text-ink/50">
-      Prices are TCGplayer market values via Scryfall{asOf ? `, captured ${asOf}` : ""}. They move daily. Not financial
-      advice. Card images © Wizards of the Coast, via Scryfall.
+      Prices are TCGplayer market values via {sources}
+      {asOf ? `, captured ${asOf}` : ""}. They move daily. Not financial advice. {images.join(". ")}.
     </p>
   );
 }

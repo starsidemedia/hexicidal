@@ -5,7 +5,7 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { YouTubeIcon, TikTokIcon, InstagramIcon } from "@/components/icons";
 import { CardTile, KindPill, PricesNote, ProfitBadge, StatTile } from "@/components/pull-ui";
-import { getOpening, getOpenings, money, prettyDate } from "@/lib/openings";
+import { gameOf, getOpening, getOpenings, money, prettyDate } from "@/lib/openings";
 
 type Props = { params: { slug: string } };
 
@@ -102,14 +102,14 @@ export default function OpeningPage({ params }: Props) {
           <h2 className="font-display text-3xl font-black uppercase sm:text-4xl">
             Every <span className="text-pop-pink">card</span>
           </h2>
-          <p className="mt-2 font-body font-medium text-ink/60">Most valuable first. Tap a card for its Scryfall page.</p>
+          <p className="mt-2 font-body font-medium text-ink/60">Most valuable first. Tap a card for its price page.</p>
           <div className="mt-8 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-5">
             {cards.map((c, i) => (
               <CardTile key={`${c.name}-${i}`} card={c} index={i} />
             ))}
           </div>
           <div className="mt-10">
-            <PricesNote asOf={o.pricesAsOf} />
+            <PricesNote asOf={o.pricesAsOf} games={[gameOf(o)]} />
           </div>
         </div>
       </section>

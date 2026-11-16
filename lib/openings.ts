@@ -7,6 +7,17 @@ import fs from "node:fs";
 import path from "node:path";
 import { featuredVideos, featuredTikToks } from "@/lib/site-config";
 
+export type Game = "mtg" | "pokemon" | "riftbound";
+
+// What each game is called, where its prices come from, and who owns its card art.
+export const GAMES: Record<Game, { label: string; source: string; images: string }> = {
+  mtg: { label: "Magic", source: "Scryfall", images: "Wizards of the Coast, via Scryfall" },
+  pokemon: { label: "Pokémon", source: "pokemontcg.io", images: "The Pokémon Company, via pokemontcg.io" },
+  riftbound: { label: "Riftbound", source: "TCGCSV", images: "Riot Games, via TCGplayer" },
+};
+
+export const gameOf = (o: { game?: Game }): Game => (o.game && o.game in GAMES ? o.game : "mtg");
+
 export type PullCard = {
   name: string;
   printing: string;
@@ -14,7 +25,7 @@ export type PullCard = {
   cn: string;
   price: number | null;
   image: string;
-  scryfall: string;
+  scryfall: string; // the card's page on its price source (Scryfall or TCGplayer)
   hit: boolean;
 };
 
@@ -22,6 +33,7 @@ export type Opening = {
   slug: string;
   title: string;
   series: string;
+  game?: Game; // missing = Magic (openings published before other games)
   kind: "pack" | "secret-lair";
   foil: boolean;
   date: string; // YYYY-MM-DD opened
@@ -70,6 +82,7 @@ export function totals(list: Opening[]): Totals {
 
 export type SeriesStats = {
   series: string;
+  game: Game;
   kind: Opening["kind"];
   count: number;
   avgValue: number;
@@ -81,9 +94,14 @@ export type SeriesStats = {
 
 export function seriesStats(list: Opening[]): SeriesStats[] {
   const groups = new Map<string, Opening[]>();
-  for (const o of list) groups.set(o.series, [...(groups.get(o.series) ?? []), o]);
+  // grouped per game too, so a "Booster Pack" series in two games stays two cards
+  for (const o of list) {
+    const key = `${gameOf(o)}|${o.series}`;
+    groups.set(key, [...(groups.get(key) ?? []), o]);
+  }
   return [...groups.entries()]
-    .map(([series, os]) => {
+    .map(([, os]) => {
+      const series = os[0].series;
       const paid = os.filter((o) => o.paid !== null);
       let best: SeriesStats["best"] = null;
       for (const o of os)
@@ -91,6 +109,7 @@ export function seriesStats(list: Opening[]): SeriesStats[] {
           if (c.price !== null && (!best || c.price > (best.card.price ?? 0))) best = { card: c, opening: o };
       return {
         series,
+        game: gameOf(os[0]),
         kind: os[0].kind,
         count: os.length,
         avgValue: os.reduce((s, o) => s + o.total, 0) / os.length,

@@ -4,12 +4,12 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Marquee from "@/components/marquee";
 import { CardTile, KindPill, PricesNote, ProfitBadge, StatTile } from "@/components/pull-ui";
-import { biggestHits, getOpenings, money, prettyDate, seriesStats, signed, totals } from "@/lib/openings";
+import { biggestHits, gameOf, getOpenings, money, prettyDate, seriesStats, signed, totals } from "@/lib/openings";
 
 export const metadata: Metadata = {
   title: "Pull Tracker",
   description:
-    "Every pack and Secret Lair Hexicidal opens, priced card by card. Is the product worth it? Here's the running math.",
+    "Every Magic, Pokémon and Riftbound pack Hexicidal opens, priced card by card. Is the product worth it? Here's the running math.",
 };
 
 export default function PullsPage() {
@@ -65,10 +65,10 @@ export default function PullsPage() {
               <p className="mt-2 font-body font-medium text-ink/60">Average opening, and how often it beats its price.</p>
               <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {series.map((s, i) => (
-                  <div key={s.series} className={`card flex flex-col p-6 ${i % 2 ? "-rotate-1" : "rotate-1"}`}>
+                  <div key={`${s.game}-${s.series}`} className={`card flex flex-col p-6 ${i % 2 ? "-rotate-1" : "rotate-1"}`}>
                     <div className="flex items-start justify-between gap-3">
                       <p className="font-display text-xl font-black uppercase leading-tight">{s.series}</p>
-                      <KindPill o={{ kind: s.kind, foil: false }} />
+                      <KindPill o={{ kind: s.kind, foil: false, game: s.game }} />
                     </div>
                     <p className="mt-1 font-body text-sm font-medium text-ink/60">
                       {s.count} opening{s.count === 1 ? "" : "s"}
@@ -163,7 +163,7 @@ export default function PullsPage() {
               })}
             </div>
             <div className="mt-10">
-              <PricesNote />
+              <PricesNote games={openings.map(gameOf)} />
             </div>
           </section>
         </>

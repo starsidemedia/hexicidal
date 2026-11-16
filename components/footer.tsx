@@ -39,7 +39,7 @@ export default function Footer() {
           )}
 
           <p className="font-body text-xs text-cream/50">
-            © {new Date().getFullYear()} {site.name}. Not affiliated with Wizards of the Coast.
+            © {new Date().getFullYear()} {site.name}. Not affiliated with Wizards of the Coast, The Pokémon Company or Riot Games.
           </p>
         </div>
       </div>
