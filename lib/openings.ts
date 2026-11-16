@@ -12,7 +12,7 @@ export type Game = "mtg" | "pokemon" | "riftbound";
 // What each game is called, where its prices come from, and who owns its card art.
 export const GAMES: Record<Game, { label: string; source: string; images: string }> = {
   mtg: { label: "Magic", source: "Scryfall", images: "Wizards of the Coast, via Scryfall" },
-  pokemon: { label: "Pokémon", source: "pokemontcg.io", images: "The Pokémon Company, via pokemontcg.io" },
+  pokemon: { label: "Pokémon", source: "TCGdex", images: "The Pokémon Company, via TCGdex" },
   riftbound: { label: "Riftbound", source: "TCGCSV", images: "Riot Games, via TCGplayer" },
 };
 
