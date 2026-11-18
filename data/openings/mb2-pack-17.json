@@ -1,0 +1,172 @@
+{
+  "slug": "mb2-pack-17",
+  "title": "MB2_Pack_17",
+  "series": "MB2_Pack_17",
+  "game": "mtg",
+  "kind": "pack",
+  "foil": false,
+  "date": "2026-11-13",
+  "pricesAsOf": "2026-11-18",
+  "paid": 13.99,
+  "total": 21.1,
+  "profit": 7.11,
+  "cards": [
+    {
+      "name": "Field of Souls",
+      "printing": "The List (PLST #VOC-86)",
+      "set": "plst",
+      "cn": "VOC-86",
+      "price": 0.17,
+      "image": "https://cards.scryfall.io/normal/front/a/2/a264d5f2-9e27-4c41-a76e-0dc944c6dc74.jpg?1783910260",
+      "scryfall": "https://scryfall.com/card/plst/VOC-86/field-of-souls",
+      "hit": false
+    },
+    {
+      "name": "Resolute Reinforcements",
+      "printing": "The List (PLST #DMU-29)",
+      "set": "plst",
+      "cn": "DMU-29",
+      "price": 0.11,
+      "image": "https://cards.scryfall.io/normal/front/0/5/050b3d9a-0766-4efa-a244-b4d3e128c335.jpg?1783910408",
+      "scryfall": "https://scryfall.com/card/plst/DMU-29/resolute-reinforcements",
+      "hit": false
+    },
+    {
+      "name": "Silver Myr",
+      "printing": "The List (PLST #MRD-241)",
+      "set": "plst",
+      "cn": "MRD-241",
+      "price": 0.37,
+      "image": "https://cards.scryfall.io/normal/front/a/c/ac66d84a-547b-4f25-a4f0-433df79502fe.jpg?1783910030",
+      "scryfall": "https://scryfall.com/card/plst/MRD-241/silver-myr",
+      "hit": false
+    },
+    {
+      "name": "Omen of the Sea",
+      "printing": "The List (PLST #THB-58)",
+      "set": "plst",
+      "cn": "THB-58",
+      "price": 0.12,
+      "image": "https://cards.scryfall.io/normal/front/8/f/8f8a1e35-75f1-4739-b06b-bbda69ba78d6.jpg?1783910329",
+      "scryfall": "https://scryfall.com/card/plst/THB-58/omen-of-the-sea",
+      "hit": false
+    },
+    {
+      "name": "Chittering Rats",
+      "printing": "The List (PLST #J22-387)",
+      "set": "plst",
+      "cn": "J22-387",
+      "price": 0.2,
+      "image": "https://cards.scryfall.io/normal/front/4/c/4cf0c632-b73c-4497-aa41-4f623667237e.jpg?1783909922",
+      "scryfall": "https://scryfall.com/card/plst/J22-387/chittering-rats",
+      "hit": false
+    },
+    {
+      "name": "Unspeakable Symbol",
+      "printing": "The List (PLST #SCG-79)",
+      "set": "plst",
+      "cn": "SCG-79",
+      "price": 0.96,
+      "image": "https://cards.scryfall.io/normal/front/d/e/de1fae7b-e0fd-40b1-ad39-4afe724215e8.jpg?1783910280",
+      "scryfall": "https://scryfall.com/card/plst/SCG-79/unspeakable-symbol",
+      "hit": false
+    },
+    {
+      "name": "Immolating Souleater",
+      "printing": "The List (PLST #NPH-139)",
+      "set": "plst",
+      "cn": "NPH-139",
+      "price": 0.18,
+      "image": "https://cards.scryfall.io/normal/front/4/6/4653d322-6d25-42d4-a8a5-7942b4868e2f.jpg?1783910147",
+      "scryfall": "https://scryfall.com/card/plst/NPH-139/immolating-souleater",
+      "hit": false
+    },
+    {
+      "name": "Seal of Fire",
+      "printing": "The List (PLST #NEM-98)",
+      "set": "plst",
+      "cn": "NEM-98",
+      "price": 0.18,
+      "image": "https://cards.scryfall.io/normal/front/7/4/7465a09a-ca28-41d0-afbe-179d654bd574.jpg?1783910237",
+      "scryfall": "https://scryfall.com/card/plst/NEM-98/seal-of-fire",
+      "hit": false
+    },
+    {
+      "name": "Horned Sliver",
+      "printing": "The List (PLST #TMP-234)",
+      "set": "plst",
+      "cn": "TMP-234",
+      "price": 1.17,
+      "image": "https://cards.scryfall.io/normal/front/1/0/101c69f7-d786-4973-bbd2-e3fbff360f73.jpg?1783910036",
+      "scryfall": "https://scryfall.com/card/plst/TMP-234/horned-sliver",
+      "hit": false
+    },
+    {
+      "name": "Scale Up",
+      "printing": "The List (PLST #MH1-179)",
+      "set": "plst",
+      "cn": "MH1-179",
+      "price": 0.33,
+      "image": "https://cards.scryfall.io/normal/front/b/9/b9bc32cf-8e1f-41ce-a1de-163a16d063d6.jpg?1783909984",
+      "scryfall": "https://scryfall.com/card/plst/MH1-179/scale-up",
+      "hit": false
+    },
+    {
+      "name": "Bonder's Ornament",
+      "printing": "The List (PLST #C20-67)",
+      "set": "plst",
+      "cn": "C20-67",
+      "price": 0.38,
+      "image": "https://cards.scryfall.io/normal/front/f/5/f59dd1e8-fc3c-437a-a2ff-638a018ffbfb.jpg?1783909973",
+      "scryfall": "https://scryfall.com/card/plst/C20-67/bonders-ornament",
+      "hit": false
+    },
+    {
+      "name": "Ayli, Eternal Pilgrim",
+      "printing": "The List (PLST #OGW-151)",
+      "set": "plst",
+      "cn": "OGW-151",
+      "price": 0.26,
+      "image": "https://cards.scryfall.io/normal/front/7/e/7ee06259-06ab-4e8d-b2a4-6fbb46150ddb.jpg?1783910130",
+      "scryfall": "https://scryfall.com/card/plst/OGW-151/ayli-eternal-pilgrim",
+      "hit": false
+    },
+    {
+      "name": "Archon of Emeria",
+      "printing": "Mystery Booster 2 (MB2 #4)",
+      "set": "mb2",
+      "cn": "4",
+      "price": 0.96,
+      "image": "https://cards.scryfall.io/normal/front/1/9/192eab08-3fec-46cb-9237-2866e3bd08b8.jpg?1783910621",
+      "scryfall": "https://scryfall.com/card/mb2/4/archon-of-emeria",
+      "hit": false
+    },
+    {
+      "name": "Thassa's Oracle",
+      "printing": "Mystery Booster 2 (MB2 #175)",
+      "set": "mb2",
+      "cn": "175",
+      "price": 15.49,
+      "image": "https://cards.scryfall.io/normal/front/6/9/69e615d8-1b79-4a82-ba9f-ee211d67dc95.jpg?1783910566",
+      "scryfall": "https://scryfall.com/card/mb2/175/thassas-oracle",
+      "hit": true
+    },
+    {
+      "name": "Hish of the Snake Cult",
+      "printing": "Mystery Booster 2 (MB2 #595)",
+      "set": "mb2",
+      "cn": "595",
+      "price": 0.22,
+      "image": "https://cards.scryfall.io/normal/front/2/b/2bbaddee-5d3d-4b86-b3cc-fefb8e0ecd76.jpg?1783910509",
+      "scryfall": "https://scryfall.com/card/mb2/595/hish-of-the-snake-cult",
+      "hit": false
+    }
+  ],
+  "posts": {
+    "tiktok": "https://www.tiktok.com/@hexicidal/video/7709663836285979917?is_from_webapp=1&sender_device=pc",
+    "youtube": "https://youtube.com/shorts/tA2LETCNmlc?feature=share",
+    "instagram": "https://www.instagram.com/reel/Df5uw-OBHZJ/?utm_source=ig_web_copy_link&knvt=MzRlODBiNWFlZA==&avpt=MzRlODBiNWFlZA=="
+  },
+  "youtubeId": "tA2LETCNmlc",
+  "tiktokId": "7709663836285979917"
+}
