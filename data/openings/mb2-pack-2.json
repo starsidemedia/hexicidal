@@ -2,10 +2,11 @@
   "slug": "mb2-pack-2",
   "title": "Mystery Booster 2 Pack 2",
   "series": "Mystery Booster 2",
+  "game": "mtg",
   "kind": "pack",
   "foil": false,
   "date": "2026-11-13",
-  "pricesAsOf": "2026-11-14",
+  "pricesAsOf": "2026-11-19",
   "paid": 13.99,
   "total": 9.38,
   "profit": -4.61,
@@ -152,10 +153,10 @@
     }
   ],
   "posts": {
-    "tiktok": "https://www.tiktok.com/@hexicidal/video/7708157102153420046?is_from_webapp=1&sender_device=pc",
+    "tiktok": "https://www.tiktok.com/@hexicidal/video/7710004443177094413?is_from_webapp=1&sender_device=pc",
     "youtube": "https://youtube.com/shorts/-7oNIl4Wvro?feature=share",
     "instagram": "https://www.instagram.com/reel/DfvRuMThLfn/?utm_source=ig_web_button_share_sheet&vrfl=MzRlODBiNWFlZA=="
   },
   "youtubeId": "-7oNIl4Wvro",
-  "tiktokId": "7708157102153420046"
+  "tiktokId": "7710004443177094413"
 }
